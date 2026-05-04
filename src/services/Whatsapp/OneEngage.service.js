@@ -61,6 +61,8 @@ class OneEngageService {
                     text: header.textHeader
                 };
 
+            
+
             } else if (
                 ['media', 'image', 'video', 'document'].includes(headerType) &&
                 header.mediaUrl
