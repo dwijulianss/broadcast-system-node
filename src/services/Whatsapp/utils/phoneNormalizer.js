@@ -38,6 +38,7 @@ const normalizeRecipients = (phone, defaultCountryCode = '62') => {
 
     // 6. Jika input menggantung atau format lain, tempelkan default country code
     return defaultCountryCode + phone;
+    
 };
 
 module.exports = {
